@@ -1,0 +1,14 @@
+E:\Program\language_class\language_class\bin\Release\teachers.mdf
+E:\Program\language_class\language_class\bin\Release\teachers_log.ldf
+E:\Program\language_class\language_class\bin\Release\students.mdf
+E:\Program\language_class\language_class\bin\Release\students_log.ldf
+E:\Program\language_class\language_class\bin\Release\language_class.exe.config
+E:\Program\language_class\language_class\bin\Release\language_class.exe
+E:\Program\language_class\language_class\bin\Release\language_class.pdb
+E:\Program\language_class\language_class\bin\Release\language_class.xml
+E:\Program\language_class\language_class\obj\Release\language_class.Hammon.resources
+E:\Program\language_class\language_class\obj\Release\language_class.Resources.resources
+E:\Program\language_class\language_class\obj\Release\language_class.vbproj.GenerateResource.Cache
+E:\Program\language_class\language_class\obj\Release\language_class.exe
+E:\Program\language_class\language_class\obj\Release\language_class.xml
+E:\Program\language_class\language_class\obj\Release\language_class.pdb

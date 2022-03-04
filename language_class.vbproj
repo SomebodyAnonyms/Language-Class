@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{94E117BD-36CB-4757-B33D-20D7C9F718FA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>language_class.My.MyApplication</StartupObject>
+    <RootNamespace>language_class</RootNamespace>
+    <AssemblyName>language_class</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>language_class.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>language_class.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Language_class.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ALL_DTDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ALL_DTDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ALL_DTDataSet.xsc">
+      <DependentUpon>ALL_DTDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ALL_DTDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ALL_DTDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ALL_DTDataSet.xss">
+      <DependentUpon>ALL_DTDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ALL_DT.mdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ALL_DT_log.ldf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <DependentUpon>ALL_DT.mdf</DependentUpon>
+    </Content>
+    <Content Include="Language_class.ico" />
+    <None Include="picture\login.png" />
+    <None Include="picture\login %281%29.png" />
+    <None Include="picture\emoji %282%29.png" />
+    <None Include="picture\emoji %283%29.png" />
+    <None Include="picture\angel.png" />
+    <None Include="picture\cool.png" />
+    <None Include="picture\emoji %281%29.png" />
+    <None Include="picture\secret.png" />
+    <None Include="picture\wrestler.png" />
+    <None Include="picture\refresh.png" />
+    <None Include="picture\refresh %281%29.png" />
+    <None Include="picture\next_step.png" />
+    <None Include="picture\next_step %281%29.png" />
+    <None Include="picture\hitman.png" />
+    <None Include="picture\boxer.png" />
+    <None Include="picture\emoji.png" />
+    <None Include="picture\furious.png" />
+    <None Include="picture\like.png" />
+    <None Include="picture\like %281%29.png" />
+    <None Include="picture\think_cloud.png" />
+    <None Include="picture\wave.png" />
+    <None Include="picture\money_up.png" />
+    <None Include="picture\money_down.png" />
+    <None Include="picture\user_man.png" />
+    <None Include="picture\user_woman.png" />
+    <None Include="picture\table_data.png" />
+    <None Include="picture\chart_data.png" />
+    <None Include="picture\level_test_star.png" />
+    <None Include="picture\level_test_star%281%29.png" />
+    <None Include="picture\communications.png" />
+    <None Include="picture\communications %281%29.png" />
+    <None Include="picture\circular-arrow.png" />
+    <None Include="picture\circular-arrow %281%29.png" />
+    <None Include="picture\plus_year.png" />
+    <None Include="picture\plus_year%281%29.png" />
+    <None Include="picture\minus.png" />
+    <None Include="picture\minus %281%29.png" />
+    <None Include="picture\schedule.png" />
+    <None Include="picture\schedule %281%29.png" />
+    <None Include="picture\download.png" />
+    <None Include="picture\download %281%29.png" />
+    <None Include="picture\upload.png" />
+    <None Include="picture\upload %281%29.png" />
+    <None Include="picture\print.png" />
+    <None Include="picture\print %281%29.png" />
+    <None Include="picture\change.png" />
+    <None Include="picture\change %281%29.png" />
+    <None Include="picture\visible.png" />
+    <None Include="picture\hidden.png" />
+    <None Include="picture\calendar%281%29.png" />
+    <None Include="picture\calendar_month.png" />
+    <None Include="picture\vision %281%29.png" />
+    <None Include="picture\vision %282%29.png" />
+    <None Include="picture\vision.png" />
+    <None Include="picture\bar-chart.png" />
+    <None Include="picture\bar-chart %281%29.png" />
+    <None Include="picture\calendar.png" />
+    <None Include="picture\flip.png" />
+    <None Include="picture\circle_red.png" />
+    <None Include="picture\circle_orange.png" />
+    <None Include="picture\circle_green.png" />
+    <None Include="picture\easter-egg.png" />
+    <None Include="picture\easter-egg %281%29.png" />
+    <None Include="picture\jester-hat.png" />
+    <None Include="picture\jester-hat %281%29.png" />
+    <None Include="picture\jester-hat %282%29.png" />
+    <None Include="picture\cake.png" />
+    <None Include="picture\cake %281%29.png" />
+    <None Include="picture\confetti.png" />
+    <None Include="picture\confetti %281%29.png" />
+    <None Include="picture\confetti %282%29.png" />
+    <None Include="picture\confetti %283%29.png" />
+    <None Include="picture\confetti %284%29.png" />
+    <None Include="picture\confetti %285%29.png" />
+    <None Include="picture\cheering.png" />
+    <None Include="picture\man %281%29.png" />
+    <None Include="picture\celebration.png" />
+    <None Include="picture\celebration %281%29.png" />
+    <None Include="picture\clown.png" />
+    <None Include="picture\clown %281%29.png" />
+    <None Include="picture\writing.png" />
+    <None Include="picture\writing %281%29.png" />
+    <None Include="picture\warning.png" />
+    <None Include="picture\united-states.png" />
+    <None Include="picture\turkey.png" />
+    <None Include="picture\transform.png" />
+    <None Include="picture\telephone.png" />
+    <None Include="picture\teacher_student.png" />
+    <None Include="picture\teacher.png" />
+    <None Include="picture\switch %284%29.png" />
+    <None Include="picture\switch %283%29.png" />
+    <None Include="picture\switch %282%29.png" />
+    <None Include="picture\switch %281%29.png" />
+    <None Include="picture\student.png" />
+    <None Include="picture\start_test%282%29.png" />
+    <None Include="picture\start_test%281%29.png" />
+    <None Include="picture\standing-up-man-.png" />
+    <None Include="picture\spain.png" />
+    <None Include="picture\south-korea.png" />
+    <None Include="picture\social-care.png" />
+    <None Include="picture\show_answer%282%29.png" />
+    <None Include="picture\show_answer%281%29.png" />
+    <None Include="picture\settings-cogwheel %282%29.png" />
+    <None Include="picture\settings-cogwheel %281%29.png" />
+    <None Include="picture\saudi-arabia.png" />
+    <None Include="picture\return.png" />
+    <None Include="picture\return %281%29.png" />
+    <None Include="picture\restore.png" />
+    <None Include="picture\restore%281%29.png" />
+    <None Include="picture\remove.png" />
+    <None Include="picture\problem.png" />
+    <None Include="picture\population.png" />
+    <None Include="picture\plus.png" />
+    <None Include="picture\planet-earth.png" />
+    <None Include="picture\pin-code.png" />
+    <None Include="picture\pin-code %281%29.png" />
+    <None Include="picture\next.png" />
+    <None Include="picture\next %281%29.png" />
+    <None Include="picture\more.png" />
+    <None Include="picture\more %281%29.png" />
+    <None Include="picture\money-flow.png" />
+    <None Include="picture\money-flow %281%29.png" />
+    <None Include="picture\money_Output.png" />
+    <None Include="picture\money_Output %281%29.png" />
+    <None Include="picture\money_Incoming.png" />
+    <None Include="picture\money_Incoming%281%29.png" />
+    <None Include="picture\money.png" />
+    <None Include="picture\money %281%29.png" />
+    <None Include="picture\man.png" />
+    <None Include="picture\Logo.png" />
+    <None Include="picture\lock.png" />
+    <None Include="picture\lock %281%29.png" />
+    <None Include="picture\line-chart.png" />
+    <None Include="picture\line-chart %283%29.png" />
+    <None Include="picture\line-chart %282%29.png" />
+    <None Include="picture\line-chart %281%29.png" />
+    <None Include="picture\level_test.png" />
+    <None Include="picture\level_test%281%29.png" />
+    <None Include="picture\lamp.png" />
+    <None Include="picture\lamp%281%29.png" />
+    <None Include="picture\kids-delete-button.png" />
+    <None Include="picture\kids-delete-button %281%29.png" />
+    <None Include="picture\job-seeker.png" />
+    <None Include="picture\job-seeker %281%29.png" />
+    <None Include="picture\japan.png" />
+    <None Include="picture\italy.png" />
+    <None Include="picture\info_right.png" />
+    <None Include="picture\info_left.png" />
+    <None Include="picture\icon.png" />
+    <None Include="picture\icon %281%29.png" />
+    <None Include="picture\home-icon-silhouette.png" />
+    <None Include="picture\home-icon-silhouette %281%29.png" />
+    <None Include="picture\graph.png" />
+    <None Include="picture\graph %281%29.png" />
+    <None Include="picture\gmail.png" />
+    <None Include="picture\girl.png" />
+    <None Include="picture\france.png" />
+    <None Include="picture\enter.png" />
+    <None Include="picture\enter %281%29.png" />
+    <None Include="picture\ellipsis.png" />
+    <None Include="picture\ellipsis %281%29.png" />
+    <None Include="picture\edit.png" />
+    <None Include="picture\edit %281%29.png" />
+    <None Include="picture\delete-cross %282%29.png" />
+    <None Include="picture\delete-cross %281%29.png" />
+    <None Include="picture\data.png" />
+    <None Include="picture\colors.png" />
+    <None Include="picture\close.png" />
+    <None Include="picture\close %281%29.png" />
+    <None Include="picture\china.png" />
+    <None Include="picture\check-mark.png" />
+    <None Include="picture\check-mark %281%29.png" />
+    <None Include="picture\checked.png" />
+    <None Include="picture\checked %282%29.png" />
+    <None Include="picture\cancel.png" />
+    <None Include="picture\cancel %281%29.png" />
+    <None Include="picture\boy %281%29.png" />
+    <None Include="picture\bill.png" />
+    <None Include="picture\back.png" />
+    <None Include="picture\back %281%29.png" />
+    <None Include="picture\avatar.png" />
+    <None Include="picture\attention_right.png" />
+    <None Include="picture\attention_left.png" />
+    <None Include="picture\ATOM.jpg" />
+    <None Include="picture\about_us.png" />
+    <None Include="picture\about_us %281%29.png" />
+    <None Include="picture\abacus.png" />
+    <None Include="picture\3d.png" />
+    <None Include="picture\2d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

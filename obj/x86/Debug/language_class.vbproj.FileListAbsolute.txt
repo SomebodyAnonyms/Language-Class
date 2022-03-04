@@ -1,0 +1,14 @@
+E:\Program\language_class\language_class\bin\x86\Debug\language_class.exe.config
+E:\Program\language_class\language_class\bin\x86\Debug\teachers.mdf
+E:\Program\language_class\language_class\bin\x86\Debug\teachers_log.ldf
+E:\Program\language_class\language_class\bin\x86\Debug\students.mdf
+E:\Program\language_class\language_class\bin\x86\Debug\students_log.ldf
+E:\Program\language_class\language_class\bin\x86\Debug\language_class.exe
+E:\Program\language_class\language_class\bin\x86\Debug\language_class.pdb
+E:\Program\language_class\language_class\bin\x86\Debug\language_class.xml
+E:\Program\language_class\language_class\obj\x86\Debug\language_class.Hammon.resources
+E:\Program\language_class\language_class\obj\x86\Debug\language_class.Resources.resources
+E:\Program\language_class\language_class\obj\x86\Debug\language_class.vbproj.GenerateResource.Cache
+E:\Program\language_class\language_class\obj\x86\Debug\language_class.exe
+E:\Program\language_class\language_class\obj\x86\Debug\language_class.xml
+E:\Program\language_class\language_class\obj\x86\Debug\language_class.pdb

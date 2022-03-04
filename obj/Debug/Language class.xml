@@ -1,0 +1,1808 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Languageclass
+</name>
+</assembly>
+<members>
+<member name="T:language_class.money_Output_farvardinDataSet.money_Output_farvardinDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:language_class.money_Output_farvardinDataSet.money_Output_farvardinRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:language_class.money_Output_farvardinDataSet.money_Output_farvardinRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:language_class.money_Output_farvardinDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:language_class.money_Output_farvardinDataSetTableAdapters.money_Output_farvardinTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:language_class.money_Output_farvardinDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(language_class.money_Output_farvardinDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:language_class.money_Output_farvardinDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(language_class.money_Output_farvardinDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:language_class.money_Output_farvardinDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(language_class.money_Output_farvardinDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:language_class.money_Output_farvardinDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:language_class.money_Output_farvardinDataSetTableAdapters.TableAdapterManager.UpdateAll(language_class.money_Output_farvardinDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:language_class.money_Output_farvardinDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:language_class.money_Output_farvardinDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:language_class.money_Output_farvardinDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:language_class.mony_incoming_deyDataSet.mony_incoming_deyDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:language_class.mony_incoming_deyDataSet.mony_incoming_deyRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:language_class.mony_incoming_deyDataSet.mony_incoming_deyRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:language_class.mony_incoming_deyDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:language_class.mony_incoming_deyDataSetTableAdapters.mony_incoming_deyTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:language_class.mony_incoming_deyDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(language_class.mony_incoming_deyDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:language_class.mony_incoming_deyDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(language_class.mony_incoming_deyDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:language_class.mony_incoming_deyDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(language_class.mony_incoming_deyDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:language_class.mony_incoming_deyDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:language_class.mony_incoming_deyDataSetTableAdapters.TableAdapterManager.UpdateAll(language_class.mony_incoming_deyDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:language_class.mony_incoming_deyDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:language_class.mony_incoming_deyDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:language_class.mony_incoming_deyDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:language_class.mony_incoming_mordadDataSet.mony_incoming_mordadDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:language_class.mony_incoming_mordadDataSet.mony_incoming_mordadRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:language_class.mony_incoming_mordadDataSet.mony_incoming_mordadRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:language_class.mony_incoming_mordadDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:language_class.mony_incoming_mordadDataSetTableAdapters.mony_incoming_mordadTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:language_class.mony_incoming_mordadDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(language_class.mony_incoming_mordadDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:language_class.mony_incoming_mordadDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(language_class.mony_incoming_mordadDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:language_class.mony_incoming_mordadDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(language_class.mony_incoming_mordadDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:language_class.mony_incoming_mordadDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:language_class.mony_incoming_mordadDataSetTableAdapters.TableAdapterManager.UpdateAll(language_class.mony_incoming_mordadDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:language_class.mony_incoming_mordadDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:language_class.mony_incoming_mordadDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:language_class.mony_incoming_mordadDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:language_class.money_Output_ordibeheshtDataSet.mony_Output_ordibeheshtDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:language_class.money_Output_ordibeheshtDataSet.mony_Output_ordibeheshtRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:language_class.money_Output_ordibeheshtDataSet.mony_Output_ordibeheshtRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:language_class.money_Output_ordibeheshtDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:language_class.money_Output_ordibeheshtDataSetTableAdapters.mony_Output_ordibeheshtTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:language_class.money_Output_ordibeheshtDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(language_class.money_Output_ordibeheshtDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:language_class.money_Output_ordibeheshtDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(language_class.money_Output_ordibeheshtDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:language_class.money_Output_ordibeheshtDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(language_class.money_Output_ordibeheshtDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:language_class.money_Output_ordibeheshtDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:language_class.money_Output_ordibeheshtDataSetTableAdapters.TableAdapterManager.UpdateAll(language_class.money_Output_ordibeheshtDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:language_class.money_Output_ordibeheshtDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:language_class.money_Output_ordibeheshtDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:language_class.money_Output_ordibeheshtDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:language_class.money_Output_tirDataSet.mony_Output_tirDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:language_class.money_Output_tirDataSet.mony_Output_tirRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:language_class.money_Output_tirDataSet.mony_Output_tirRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:language_class.money_Output_tirDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:language_class.money_Output_tirDataSetTableAdapters.mony_Output_tirTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:language_class.money_Output_tirDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(language_class.money_Output_tirDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:language_class.money_Output_tirDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(language_class.money_Output_tirDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:language_class.money_Output_tirDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(language_class.money_Output_tirDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:language_class.money_Output_tirDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:language_class.money_Output_tirDataSetTableAdapters.TableAdapterManager.UpdateAll(language_class.money_Output_tirDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:language_class.money_Output_tirDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:language_class.money_Output_tirDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:language_class.money_Output_tirDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:language_class.mony_incoming_azarDataSet.mony_incoming_azarDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:language_class.mony_incoming_azarDataSet.mony_incoming_azarRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:language_class.mony_incoming_azarDataSet.mony_incoming_azarRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:language_class.mony_incoming_azarDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:language_class.mony_incoming_azarDataSetTableAdapters.mony_incoming_azarTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:language_class.mony_incoming_azarDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(language_class.mony_incoming_azarDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:language_class.mony_incoming_azarDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(language_class.mony_incoming_azarDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:language_class.mony_incoming_azarDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(language_class.mony_incoming_azarDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:language_class.mony_incoming_azarDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:language_class.mony_incoming_azarDataSetTableAdapters.TableAdapterManager.UpdateAll(language_class.mony_incoming_azarDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:language_class.mony_incoming_azarDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:language_class.mony_incoming_azarDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:language_class.mony_incoming_azarDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:language_class.mony_incoming_mehrDataSet.mony_incoming_mehrDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:language_class.mony_incoming_mehrDataSet.mony_incoming_mehrRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:language_class.mony_incoming_mehrDataSet.mony_incoming_mehrRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:language_class.mony_incoming_mehrDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:language_class.mony_incoming_mehrDataSetTableAdapters.mony_incoming_mehrTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:language_class.mony_incoming_mehrDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(language_class.mony_incoming_mehrDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:language_class.mony_incoming_mehrDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(language_class.mony_incoming_mehrDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:language_class.mony_incoming_mehrDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(language_class.mony_incoming_mehrDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:language_class.mony_incoming_mehrDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:language_class.mony_incoming_mehrDataSetTableAdapters.TableAdapterManager.UpdateAll(language_class.mony_incoming_mehrDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:language_class.mony_incoming_mehrDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:language_class.mony_incoming_mehrDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:language_class.mony_incoming_mehrDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:language_class.mony_incoming_farvardinDataSet.mony_incoming_farvardinDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:language_class.mony_incoming_farvardinDataSet.mony_incoming_farvardinRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:language_class.mony_incoming_farvardinDataSet.mony_incoming_farvardinRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:language_class.mony_incoming_farvardinDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:language_class.mony_incoming_farvardinDataSetTableAdapters.mony_incoming_farvardinTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:language_class.mony_incoming_farvardinDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(language_class.mony_incoming_farvardinDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:language_class.mony_incoming_farvardinDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(language_class.mony_incoming_farvardinDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:language_class.mony_incoming_farvardinDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(language_class.mony_incoming_farvardinDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:language_class.mony_incoming_farvardinDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:language_class.mony_incoming_farvardinDataSetTableAdapters.TableAdapterManager.UpdateAll(language_class.mony_incoming_farvardinDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:language_class.mony_incoming_farvardinDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:language_class.mony_incoming_farvardinDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:language_class.mony_incoming_farvardinDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:language_class.money_Output_abanDataSet.mony_Output_abanDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:language_class.money_Output_abanDataSet.mony_Output_abanRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:language_class.money_Output_abanDataSet.mony_Output_abanRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:language_class.money_Output_abanDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:language_class.money_Output_abanDataSetTableAdapters.mony_Output_abanTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:language_class.money_Output_abanDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(language_class.money_Output_abanDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:language_class.money_Output_abanDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(language_class.money_Output_abanDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:language_class.money_Output_abanDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(language_class.money_Output_abanDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:language_class.money_Output_abanDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:language_class.money_Output_abanDataSetTableAdapters.TableAdapterManager.UpdateAll(language_class.money_Output_abanDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:language_class.money_Output_abanDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:language_class.money_Output_abanDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:language_class.money_Output_abanDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:language_class.money_Output_esfandDataSet.mony_Output_esfandDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:language_class.money_Output_esfandDataSet.mony_Output_esfandRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:language_class.money_Output_esfandDataSet.mony_Output_esfandRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:language_class.money_Output_esfandDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:language_class.money_Output_esfandDataSetTableAdapters.mony_Output_esfandTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:language_class.money_Output_esfandDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(language_class.money_Output_esfandDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:language_class.money_Output_esfandDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(language_class.money_Output_esfandDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:language_class.money_Output_esfandDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(language_class.money_Output_esfandDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:language_class.money_Output_esfandDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:language_class.money_Output_esfandDataSetTableAdapters.TableAdapterManager.UpdateAll(language_class.money_Output_esfandDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:language_class.money_Output_esfandDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:language_class.money_Output_esfandDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:language_class.money_Output_esfandDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:language_class.mony_incoming_ordibeheshtDataSet.mony_incoming_ordibeheshtDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:language_class.mony_incoming_ordibeheshtDataSet.mony_incoming_ordibeheshtRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:language_class.mony_incoming_ordibeheshtDataSet.mony_incoming_ordibeheshtRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:language_class.mony_incoming_ordibeheshtDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:language_class.mony_incoming_ordibeheshtDataSetTableAdapters.mony_incoming_ordibeheshtTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:language_class.mony_incoming_ordibeheshtDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(language_class.mony_incoming_ordibeheshtDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:language_class.mony_incoming_ordibeheshtDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(language_class.mony_incoming_ordibeheshtDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:language_class.mony_incoming_ordibeheshtDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(language_class.mony_incoming_ordibeheshtDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:language_class.mony_incoming_ordibeheshtDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:language_class.mony_incoming_ordibeheshtDataSetTableAdapters.TableAdapterManager.UpdateAll(language_class.mony_incoming_ordibeheshtDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:language_class.mony_incoming_ordibeheshtDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:language_class.mony_incoming_ordibeheshtDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:language_class.mony_incoming_ordibeheshtDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:language_class.studentsDataSet.studentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:language_class.studentsDataSet.studentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:language_class.studentsDataSet.studentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:language_class.studentsDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:language_class.studentsDataSetTableAdapters.studentTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:language_class.studentsDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(language_class.studentsDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:language_class.studentsDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(language_class.studentsDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:language_class.studentsDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(language_class.studentsDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:language_class.studentsDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:language_class.studentsDataSetTableAdapters.TableAdapterManager.UpdateAll(language_class.studentsDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:language_class.studentsDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:language_class.studentsDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:language_class.studentsDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:language_class.money_Output_khordadDataSet.mony_Output_khordadDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:language_class.money_Output_khordadDataSet.mony_Output_khordadRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:language_class.money_Output_khordadDataSet.mony_Output_khordadRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:language_class.money_Output_khordadDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:language_class.money_Output_khordadDataSetTableAdapters.mony_Output_khordadTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:language_class.money_Output_khordadDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(language_class.money_Output_khordadDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:language_class.money_Output_khordadDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(language_class.money_Output_khordadDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:language_class.money_Output_khordadDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(language_class.money_Output_khordadDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:language_class.money_Output_khordadDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:language_class.money_Output_khordadDataSetTableAdapters.TableAdapterManager.UpdateAll(language_class.money_Output_khordadDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:language_class.money_Output_khordadDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:language_class.money_Output_khordadDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:language_class.money_Output_khordadDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:language_class.money_Output_bahmanDataSet.mony_Output_bahmanDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:language_class.money_Output_bahmanDataSet.mony_Output_bahmanRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:language_class.money_Output_bahmanDataSet.mony_Output_bahmanRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:language_class.money_Output_bahmanDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:language_class.money_Output_bahmanDataSetTableAdapters.mony_Output_bahmanTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:language_class.money_Output_bahmanDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(language_class.money_Output_bahmanDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:language_class.money_Output_bahmanDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(language_class.money_Output_bahmanDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:language_class.money_Output_bahmanDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(language_class.money_Output_bahmanDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:language_class.money_Output_bahmanDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:language_class.money_Output_bahmanDataSetTableAdapters.TableAdapterManager.UpdateAll(language_class.money_Output_bahmanDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:language_class.money_Output_bahmanDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:language_class.money_Output_bahmanDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:language_class.money_Output_bahmanDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:language_class.money_Output_deyDataSet.mony_Output_deyDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:language_class.money_Output_deyDataSet.mony_Output_deyRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:language_class.money_Output_deyDataSet.mony_Output_deyRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:language_class.money_Output_deyDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:language_class.money_Output_deyDataSetTableAdapters.mony_Output_deyTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:language_class.money_Output_deyDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(language_class.money_Output_deyDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:language_class.money_Output_deyDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(language_class.money_Output_deyDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:language_class.money_Output_deyDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(language_class.money_Output_deyDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:language_class.money_Output_deyDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:language_class.money_Output_deyDataSetTableAdapters.TableAdapterManager.UpdateAll(language_class.money_Output_deyDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:language_class.money_Output_deyDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:language_class.money_Output_deyDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:language_class.money_Output_deyDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:language_class.teachersDataSet.teachersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:language_class.teachersDataSet.teachersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:language_class.teachersDataSet.teachersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:language_class.teachersDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:language_class.teachersDataSetTableAdapters.teachersTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:language_class.teachersDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(language_class.teachersDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:language_class.teachersDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(language_class.teachersDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:language_class.teachersDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(language_class.teachersDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:language_class.teachersDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:language_class.teachersDataSetTableAdapters.TableAdapterManager.UpdateAll(language_class.teachersDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:language_class.teachersDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:language_class.teachersDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:language_class.teachersDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:language_class.money_Output_shahrivarDataSet.mony_Output_shahrivarDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:language_class.money_Output_shahrivarDataSet.mony_Output_shahrivarRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:language_class.money_Output_shahrivarDataSet.mony_Output_shahrivarRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:language_class.money_Output_shahrivarDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:language_class.money_Output_shahrivarDataSetTableAdapters.mony_Output_shahrivarTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:language_class.money_Output_shahrivarDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(language_class.money_Output_shahrivarDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:language_class.money_Output_shahrivarDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(language_class.money_Output_shahrivarDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:language_class.money_Output_shahrivarDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(language_class.money_Output_shahrivarDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:language_class.money_Output_shahrivarDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:language_class.money_Output_shahrivarDataSetTableAdapters.TableAdapterManager.UpdateAll(language_class.money_Output_shahrivarDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:language_class.money_Output_shahrivarDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:language_class.money_Output_shahrivarDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:language_class.money_Output_shahrivarDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:language_class.mony_incoming_esfandDataSet.mony_incoming_esfandDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:language_class.mony_incoming_esfandDataSet.mony_incoming_esfandRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:language_class.mony_incoming_esfandDataSet.mony_incoming_esfandRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:language_class.mony_incoming_esfandDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:language_class.mony_incoming_esfandDataSetTableAdapters.mony_incoming_esfandTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:language_class.mony_incoming_esfandDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(language_class.mony_incoming_esfandDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:language_class.mony_incoming_esfandDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(language_class.mony_incoming_esfandDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:language_class.mony_incoming_esfandDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(language_class.mony_incoming_esfandDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:language_class.mony_incoming_esfandDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:language_class.mony_incoming_esfandDataSetTableAdapters.TableAdapterManager.UpdateAll(language_class.mony_incoming_esfandDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:language_class.mony_incoming_esfandDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:language_class.mony_incoming_esfandDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:language_class.mony_incoming_esfandDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:language_class.mony_incoming_abanDataSet.mony_incoming_abanDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:language_class.mony_incoming_abanDataSet.mony_incoming_abanRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:language_class.mony_incoming_abanDataSet.mony_incoming_abanRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:language_class.mony_incoming_abanDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:language_class.mony_incoming_abanDataSetTableAdapters.mony_incoming_abanTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:language_class.mony_incoming_abanDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(language_class.mony_incoming_abanDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:language_class.mony_incoming_abanDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(language_class.mony_incoming_abanDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:language_class.mony_incoming_abanDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(language_class.mony_incoming_abanDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:language_class.mony_incoming_abanDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:language_class.mony_incoming_abanDataSetTableAdapters.TableAdapterManager.UpdateAll(language_class.mony_incoming_abanDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:language_class.mony_incoming_abanDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:language_class.mony_incoming_abanDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:language_class.mony_incoming_abanDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:language_class.mony_incoming_bahmanDataSet.mony_incoming_bahmanDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:language_class.mony_incoming_bahmanDataSet.mony_incoming_bahmanRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:language_class.mony_incoming_bahmanDataSet.mony_incoming_bahmanRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:language_class.mony_incoming_bahmanDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:language_class.mony_incoming_bahmanDataSetTableAdapters.mony_incoming_bahmanTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:language_class.mony_incoming_bahmanDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(language_class.mony_incoming_bahmanDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:language_class.mony_incoming_bahmanDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(language_class.mony_incoming_bahmanDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:language_class.mony_incoming_bahmanDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(language_class.mony_incoming_bahmanDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:language_class.mony_incoming_bahmanDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:language_class.mony_incoming_bahmanDataSetTableAdapters.TableAdapterManager.UpdateAll(language_class.mony_incoming_bahmanDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:language_class.mony_incoming_bahmanDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:language_class.mony_incoming_bahmanDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:language_class.mony_incoming_bahmanDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:language_class.mony_incoming_tirDataSet.mony_incoming_tirDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:language_class.mony_incoming_tirDataSet.mony_incoming_tirRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:language_class.mony_incoming_tirDataSet.mony_incoming_tirRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:language_class.mony_incoming_tirDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:language_class.mony_incoming_tirDataSetTableAdapters.mony_incoming_tirTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:language_class.mony_incoming_tirDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(language_class.mony_incoming_tirDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:language_class.mony_incoming_tirDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(language_class.mony_incoming_tirDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:language_class.mony_incoming_tirDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(language_class.mony_incoming_tirDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:language_class.mony_incoming_tirDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:language_class.mony_incoming_tirDataSetTableAdapters.TableAdapterManager.UpdateAll(language_class.mony_incoming_tirDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:language_class.mony_incoming_tirDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:language_class.mony_incoming_tirDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:language_class.mony_incoming_tirDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources._2d">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources._3d">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources._next">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources._return">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.abacus">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.about_us">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.about_us__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.ATOM">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.attention_left">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.attention_right">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.avatar">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.back">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.back__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.boy__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.cancel">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.cancel__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.check_mark">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.check_mark__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.checked">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.checked__2_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.china">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.close">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.close__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.colors">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.data">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.delete_cross__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.delete_cross__2_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.edit">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.edit__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.ellipsis">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.ellipsis__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.enter">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.enter__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.france">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.girl">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.gmail">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.graph">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.graph__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.home_icon_silhouette">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.home_icon_silhouette__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.icon__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.info_left">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.info_right">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.italy">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.japan">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.job_seeker">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.job_seeker__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.kids_delete_button">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.kids_delete_button__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.lamp">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.lamp_1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.level_test">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.level_test_1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.line_chart">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.line_chart__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.line_chart__2_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.line_chart__3_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.lock">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.lock__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.Logo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.man">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.money">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.money__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.money_flow">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.money_flow__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.money_Incoming">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.money_Incoming_1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.money_Output">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.money_Output__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.more">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.more__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.next__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.pin_code">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.pin_code__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.planet_earth">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.plus">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.population">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.problem">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.remove">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.restore">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.restore_1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.return__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.saudi_arabia">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.settings_cogwheel__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.settings_cogwheel__2_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.show_answer_1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.show_answer_2_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.social_care1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.south_korea">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.spain">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.standing_up_man_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.start_test_1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.start_test_2_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.student">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.switch__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.switch__2_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.switch__3_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.switch__4_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.teacher">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.teacher_student">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.telephone">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.transform">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.turkey">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.united_states">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.warning">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.writing">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:language_class.My.Resources.Resources.writing__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:language_class.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:language_class.money_Output_mordadDataSet.mony_Output_mordadDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:language_class.money_Output_mordadDataSet.mony_Output_mordadRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:language_class.money_Output_mordadDataSet.mony_Output_mordadRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:language_class.money_Output_mordadDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:language_class.money_Output_mordadDataSetTableAdapters.mony_Output_mordadTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:language_class.money_Output_mordadDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(language_class.money_Output_mordadDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:language_class.money_Output_mordadDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(language_class.money_Output_mordadDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:language_class.money_Output_mordadDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(language_class.money_Output_mordadDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:language_class.money_Output_mordadDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:language_class.money_Output_mordadDataSetTableAdapters.TableAdapterManager.UpdateAll(language_class.money_Output_mordadDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:language_class.money_Output_mordadDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:language_class.money_Output_mordadDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:language_class.money_Output_mordadDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:language_class.mony_incoming_khordadDataSet.mony_incoming_khordadDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:language_class.mony_incoming_khordadDataSet.mony_incoming_khordadRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:language_class.mony_incoming_khordadDataSet.mony_incoming_khordadRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:language_class.mony_incoming_khordadDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:language_class.mony_incoming_khordadDataSetTableAdapters.mony_incoming_khordadTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:language_class.mony_incoming_khordadDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(language_class.mony_incoming_khordadDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:language_class.mony_incoming_khordadDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(language_class.mony_incoming_khordadDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:language_class.mony_incoming_khordadDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(language_class.mony_incoming_khordadDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:language_class.mony_incoming_khordadDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:language_class.mony_incoming_khordadDataSetTableAdapters.TableAdapterManager.UpdateAll(language_class.mony_incoming_khordadDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:language_class.mony_incoming_khordadDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:language_class.mony_incoming_khordadDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:language_class.mony_incoming_khordadDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:language_class.money_Output_azarDataSet.mony_Output_azarDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:language_class.money_Output_azarDataSet.mony_Output_azarRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:language_class.money_Output_azarDataSet.mony_Output_azarRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:language_class.money_Output_azarDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:language_class.money_Output_azarDataSetTableAdapters.mony_Output_azarTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:language_class.money_Output_azarDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(language_class.money_Output_azarDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:language_class.money_Output_azarDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(language_class.money_Output_azarDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:language_class.money_Output_azarDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(language_class.money_Output_azarDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:language_class.money_Output_azarDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:language_class.money_Output_azarDataSetTableAdapters.TableAdapterManager.UpdateAll(language_class.money_Output_azarDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:language_class.money_Output_azarDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:language_class.money_Output_azarDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:language_class.money_Output_azarDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:language_class.money_Output_mehrDataSet.mony_Output_mehrDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:language_class.money_Output_mehrDataSet.mony_Output_mehrRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:language_class.money_Output_mehrDataSet.mony_Output_mehrRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:language_class.money_Output_mehrDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:language_class.money_Output_mehrDataSetTableAdapters.mony_Output_mehrTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:language_class.money_Output_mehrDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(language_class.money_Output_mehrDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:language_class.money_Output_mehrDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(language_class.money_Output_mehrDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:language_class.money_Output_mehrDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(language_class.money_Output_mehrDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:language_class.money_Output_mehrDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:language_class.money_Output_mehrDataSetTableAdapters.TableAdapterManager.UpdateAll(language_class.money_Output_mehrDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:language_class.money_Output_mehrDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:language_class.money_Output_mehrDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:language_class.money_Output_mehrDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:language_class.mony_incoming_shahrivarDataSet.mony_incoming_shahrivarDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:language_class.mony_incoming_shahrivarDataSet.mony_incoming_shahrivarRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:language_class.mony_incoming_shahrivarDataSet.mony_incoming_shahrivarRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:language_class.mony_incoming_shahrivarDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:language_class.mony_incoming_shahrivarDataSetTableAdapters.mony_incoming_shahrivarTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:language_class.mony_incoming_shahrivarDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(language_class.mony_incoming_shahrivarDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:language_class.mony_incoming_shahrivarDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(language_class.mony_incoming_shahrivarDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:language_class.mony_incoming_shahrivarDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(language_class.mony_incoming_shahrivarDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:language_class.mony_incoming_shahrivarDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:language_class.mony_incoming_shahrivarDataSetTableAdapters.TableAdapterManager.UpdateAll(language_class.mony_incoming_shahrivarDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:language_class.mony_incoming_shahrivarDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:language_class.mony_incoming_shahrivarDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:language_class.mony_incoming_shahrivarDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>
